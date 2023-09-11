@@ -1,0 +1,29 @@
+body {
+    /* Default styles for larger screens */
+    margin-left: 30rem;
+    margin-top: 5rem;
+}
+
+/* Media query for screens with a maximum width of 768px (typical for tablets) */
+@media (max-width: 768px) {
+    body {
+        margin-left: 10rem;
+        /* Adjust the margin for smaller screens */
+        margin-top: 3rem;
+        /* Adjust the margin for smaller screens */
+    }
+}
+
+/* Media query for screens with a maximum width of 480px (typical for smartphones) */
+@media (max-width: 480px) {
+    body {
+        margin-left: 2rem;
+        /* Adjust the margin for even smaller screens */
+        margin-top: 2rem;
+        /* Adjust the margin for even smaller screens */
+    }
+}
+
+.image {
+    height: 40px;
+}
