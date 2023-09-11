@@ -21,7 +21,7 @@ function Second() {
     document.getElementById('milliSeconds').textContent = `Current UTC time in milliseconds is: ${UTCMilli}`;
 
 }
-  const  UTCMilliSecond = setInterval(Second, 1);
+  const  UTCMilliSecond = setInterval(Second, 1500);
 
 
 
